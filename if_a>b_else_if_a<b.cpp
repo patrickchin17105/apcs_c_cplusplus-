@@ -14,4 +14,6 @@ int main(){
     else if (a < b ){
         printf("a < b \n");
     }
+cout<<"Hello world";
+return 0;
 }
