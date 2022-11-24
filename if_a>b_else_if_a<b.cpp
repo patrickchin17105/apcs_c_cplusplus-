@@ -1,19 +1,23 @@
-#include <stdio.h>
+#include <iostream>
 
-int main(){
-    
-    int a , b ;
-    printf(" Please input a number : \n");
-    scanf ("%d" , &a);
-    printf("Please input another number : \n");
+using namespace std;
+
+int main()
+{
+    int a, b ;
+    printf("please input a number : \n");
+    scanf("%d" , &a);
+    printf("please input another number : \n");
     scanf("%d" , &b);
     
-    if ( a > b) {
+    if(a > b){
         printf("a > b \n");
     }
-    else if (a < b ){
+    
+    else if(a < b){
         printf("a < b \n");
     }
-cout<<"Hello world";
-return 0;
+    cout<<"Hello World";
+
+    return 0;
 }
