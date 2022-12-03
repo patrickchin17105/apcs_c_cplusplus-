@@ -9,7 +9,7 @@ int main()
       printf("%d * %d = %d \n",i,j,i*j);
     }
   }
-  cont<<"Hello World";
+  cout<<"Hello World";
   
   retrun 0;
 }
