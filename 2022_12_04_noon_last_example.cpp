@@ -8,10 +8,10 @@ void print(int x){
   int t;
   //scanf("%d",&t);
   if(x==1){
-    printf("%2d *%2d ",x,1,x*1);
+    printf("%2d *%2d = %2d ",x,1,x*1);
   }else{
     print(x-1);
-    printf(%2d *%2d = %2d ",x,1,x*1);
+    printf("%2d *%2d = %2d ",x,1,x*1);
    }
  }
  int main()
